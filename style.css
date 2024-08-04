@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box  ;
+}
+
+.overflow{
+    border: black 1px dotted;
+    display: flex;
+    width: 500px;
+margin-top: 30px;
+    height: 50px;
+}
+
+.scroll{
+    overflow: scroll;
+        margin-top: 190px;
+}
+
+.hidden{
+    overflow: hidden;
+        margin-top: 190px;
+}
+
+.visible{
+    overflow: visible;
+}
+
+.overfflow{
+    width: 550px;
+    height: 400px;
+    margin-top: 500px;
+    border: 2px green solid;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.img{
+    display: block;
+max-width: 100%;
+}
