@@ -37,3 +37,67 @@ margin-top: 30px;
     display: block;
 max-width: 100%;
 }
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    position: relative;
+    margin-right: 15px;
+}
+.menu-link:hover{
+    transition: 0.25s all ease-in-out;
+}
+
+.menu-link{
+    backdrop-filter: blur(10px);
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.menu-item:hover .menu-link {
+    background-color: palevioletred;
+}
+
+.menu-link {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+}
+
+.submenu {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+    border-radius: 10px;
+}
+
+.submenu a {
+    text-decoration: none;
+}
+
+.a-hover{
+    color: #3498db;
+    background-color: #bdc3c7;
+}
+
+.a-hover:hover{
+        color: #f8c471;
+        transition: 0.25s all 0.2s ease-in-out;
+}
+

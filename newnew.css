@@ -1,0 +1,33 @@
+    html {
+        scroll-behavior: smooth;
+        padding-top: 80px;
+    }
+
+    .page-header {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        background-color: orange;
+        border: none;
+        border-radius: 50%;
+    }
+
+    #Operations{
+        background-color: aqua;
+    }
+
+    .sectionss{
+        background-color: aqua;
+    }
+
+    .sections{
+        background-color: blue;
+    }
+
+    header{
+        position: fixed;
+        display: flex;
+        margin-bottom: 10px;
+    }
